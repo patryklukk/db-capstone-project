@@ -1,7 +1,7 @@
 import mysql.connector as connector
 
 # Task 1
-connection = connector.connect(user = "root", password = "4815", db = "LittleLemonDB")
+connection = connector.connect(user = "root", password = "passwd", db = "LittleLemonDB")
 cursor = connection.cursor()
 
 # Task 2
